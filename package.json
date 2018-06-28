@@ -1,9 +1,9 @@
 {
-  "name": "material-ui-build",
+  "name": "material-ui-build-ie10",
   "private": true,
-  "author": "Material-UI Team",
-  "version": "0.20.1",
-  "description": "React Components that Implement Google's Material Design.",
+  "author": "Material-UI Team, Graham Eades",
+  "version": "0.20.2",
+  "description": "Fork from the Material-UI Team to try and include IE10 support. React Components that Implement Google's Material Design.",
   "main": "./src/index.js",
   "keywords": [
     "react",
@@ -13,11 +13,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/callemall/material-ui.git"
+    "url": "https://github.com/graham-eades/material-ui.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/callemall/material-ui/issues"
+    "url": "https://github.com/graham-eades/material-ui/issues"
   },
   "homepage": "http://material-ui.com/",
   "scripts": {
@@ -54,7 +54,7 @@
     "lodash.merge": "^4.6.0",
     "lodash.throttle": "^4.1.1",
     "prop-types": "^15.5.7",
-    "react-event-listener": "^0.5.1",
+    "react-event-listener": "0.5.3",
     "react-transition-group": "^1.2.1",
     "recompose": "^0.26.0",
     "simple-assign": "^0.1.0",
